@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #f7efe9, #ffffff);
+  color: #2b2b2b;
+}
+
+/* Sections */
+.section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  padding: 40px 25px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* Typography */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 15px;
+}
+
+.tag {
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: #888;
+}
+
+.sub {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.details {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* Lotus */
+.lotus {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 28px;
+  opacity: 0.4;
+}
+
+/* WhatsApp Invite Button */
+.invite-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #6b4c4c;
+  border: 1px solid #d8cfc7;
+  border-radius: 30px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.invite-btn:hover {
+  background: #f3e8e2;
+  border-color: #cbbfb6;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .card {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
